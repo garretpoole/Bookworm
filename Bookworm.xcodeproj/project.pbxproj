@@ -63,14 +63,14 @@
 		606F76A527F6601D00174AAE /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
-				606F76BD27F8C77200174AAE /* EmojiRatingView.swift */,
 				606F76A627F6601D00174AAE /* BookwormApp.swift */,
 				606F76A827F6601D00174AAE /* ContentView.swift */,
-				606F76B427F6B9D200174AAE /* Bookworm.xcdatamodeld */,
 				606F76B927F8C18D00174AAE /* AddBookView.swift */,
 				606F76BF27F8CA8900174AAE /* DetailView.swift */,
+				606F76BD27F8C77200174AAE /* EmojiRatingView.swift */,
 				606F76BB27F8C56200174AAE /* StarRatingView.swift */,
 				606F76B727F6BA2300174AAE /* DataController.swift */,
+				606F76B427F6B9D200174AAE /* Bookworm.xcdatamodeld */,
 				606F76AA27F6601E00174AAE /* Assets.xcassets */,
 				606F76AC27F6601E00174AAE /* Preview Content */,
 			);
