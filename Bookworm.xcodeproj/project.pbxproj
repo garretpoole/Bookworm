@@ -15,6 +15,7 @@
 		606F76B827F6BA2300174AAE /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F76B727F6BA2300174AAE /* DataController.swift */; };
 		606F76BA27F8C18D00174AAE /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F76B927F8C18D00174AAE /* AddBookView.swift */; };
 		606F76BC27F8C56200174AAE /* StarRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F76BB27F8C56200174AAE /* StarRatingView.swift */; };
+		606F76BE27F8C77200174AAE /* EmojiRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F76BD27F8C77200174AAE /* EmojiRatingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		606F76B727F6BA2300174AAE /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 		606F76B927F8C18D00174AAE /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 		606F76BB27F8C56200174AAE /* StarRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarRatingView.swift; sourceTree = "<group>"; };
+		606F76BD27F8C77200174AAE /* EmojiRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmojiRatingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		606F76A527F6601D00174AAE /* Bookworm */ = {
 			isa = PBXGroup;
 			children = (
+				606F76BD27F8C77200174AAE /* EmojiRatingView.swift */,
 				606F76A627F6601D00174AAE /* BookwormApp.swift */,
 				606F76A827F6601D00174AAE /* ContentView.swift */,
 				606F76B427F6B9D200174AAE /* Bookworm.xcdatamodeld */,
@@ -151,6 +154,7 @@
 			files = (
 				606F76A927F6601D00174AAE /* ContentView.swift in Sources */,
 				606F76B827F6BA2300174AAE /* DataController.swift in Sources */,
+				606F76BE27F8C77200174AAE /* EmojiRatingView.swift in Sources */,
 				606F76B627F6B9D200174AAE /* Bookworm.xcdatamodeld in Sources */,
 				606F76A727F6601D00174AAE /* BookwormApp.swift in Sources */,
 				606F76BA27F8C18D00174AAE /* AddBookView.swift in Sources */,
