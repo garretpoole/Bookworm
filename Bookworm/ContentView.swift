@@ -11,7 +11,13 @@ import SwiftUI
 struct ContentView: View {
     @Environment(\.managedObjectContext) var moc
     //reads out all books saved so far
-    @FetchRequest(sortDescriptors: []) var books: FetchedResults<Book>
+    //sortDescriptors sorts the list based on array given
+    //sorts first based on title then author
+    //can be reversed order with ", order: .reverse"
+    @FetchRequest(sortDescriptors: [
+        SortDescriptor(\.title),
+        SortDescriptor(\.author)
+    ]) var books: FetchedResults<Book>
     
     @State private var showingAddBook = false
     
