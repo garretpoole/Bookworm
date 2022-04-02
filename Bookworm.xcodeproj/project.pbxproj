@@ -13,6 +13,7 @@
 		606F76AE27F6601E00174AAE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 606F76AD27F6601E00174AAE /* Preview Assets.xcassets */; };
 		606F76B627F6B9D200174AAE /* Bookworm.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 606F76B427F6B9D200174AAE /* Bookworm.xcdatamodeld */; };
 		606F76B827F6BA2300174AAE /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F76B727F6BA2300174AAE /* DataController.swift */; };
+		606F76BA27F8C18D00174AAE /* AddBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 606F76B927F8C18D00174AAE /* AddBookView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		606F76AD27F6601E00174AAE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		606F76B527F6B9D200174AAE /* Bookworm.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Bookworm.xcdatamodel; sourceTree = "<group>"; };
 		606F76B727F6BA2300174AAE /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		606F76B927F8C18D00174AAE /* AddBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 				606F76A627F6601D00174AAE /* BookwormApp.swift */,
 				606F76A827F6601D00174AAE /* ContentView.swift */,
 				606F76B427F6B9D200174AAE /* Bookworm.xcdatamodeld */,
+				606F76B927F8C18D00174AAE /* AddBookView.swift */,
 				606F76B727F6BA2300174AAE /* DataController.swift */,
 				606F76AA27F6601E00174AAE /* Assets.xcassets */,
 				606F76AC27F6601E00174AAE /* Preview Content */,
@@ -147,6 +150,7 @@
 				606F76B827F6BA2300174AAE /* DataController.swift in Sources */,
 				606F76B627F6B9D200174AAE /* Bookworm.xcdatamodeld in Sources */,
 				606F76A727F6601D00174AAE /* BookwormApp.swift in Sources */,
+				606F76BA27F8C18D00174AAE /* AddBookView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
