@@ -15,6 +15,8 @@ struct ContentView: View {
     //sorts first based on title then author
     //can be reversed order with ", order: .reverse"
     @FetchRequest(sortDescriptors: [
+        //uncomment if want books sorted by date added
+        //SortDescriptor(\.date, order: .reverse),
         SortDescriptor(\.title),
         SortDescriptor(\.author)
     ]) var books: FetchedResults<Book>
