@@ -30,6 +30,25 @@ struct StarRatingView: View {
                     .onTapGesture {
                         rating = number
                     }
+                //Approcah 1: works but not fluid
+//                    .accessibilityLabel("\(number == 1 ? "1 Star" : "\(number) Stars")")
+//                    .accessibilityRemoveTraits(.isImage)
+//                    .accessibilityAddTraits(number > rating ? .isButton : [.isButton, .isSelected])
+            }
+        }
+        //Approach 2: flatten children and apply to whole HStack
+        //allows to swipe up for increment and down for decrement
+        .accessibilityElement()
+        .accessibilityLabel("Rating")
+        .accessibilityValue(rating == 1 ? "1 star" : "\(rating) stars")
+        .accessibilityAdjustableAction { direction in
+            switch direction {
+            case .increment:
+                if rating < maxRating { rating += 1 }
+            case .decrement:
+                if rating > 1 { rating -= 1 }
+            default:
+                break
             }
         }
     }
